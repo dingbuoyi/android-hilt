@@ -56,6 +56,7 @@ dependencies {
     // Room
     implementation "androidx.room:room-runtime:2.2.6"
     kapt "androidx.room:room-compiler:2.2.6"
+    kapt("org.xerial:sqlite-jdbc:3.34.0")
 
     // Testing dependencies
     androidTestImplementation "junit:junit:4.13.2"
